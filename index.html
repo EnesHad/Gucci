@@ -1,125 +1,418 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-  <title>Gucci</title>
-  <link rel="stylesheet" href="style.css" type="text/css" media="all" />
-  <link rel="shortcut icon" href="img/Gucci_logo.svg">
-</head>
-
-<body>
-  <div class="main">
-    <!--PING-->
-    <div class="slika">
-      <div class="pngucci">
-        <img src="img/gucci.png" alt="">
-      </div>
-    </div>
-    <br>
+    <!-- basic -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- mobile metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+    <!-- site metas -->
     
-    <!--SVG-->
-    <div class="svgpic">
-      <div class="svg1">
-        <svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 413 286">
+    <title>GUCCI</title>
+    <link rel="icon" type="image/x-icon" href="icon/gucci.png">
 
-          <path id="GuciPot" fill="true" stroke="black" stroke-width="1" d="M 206.00,15.27
-          C 146.50,-9.00 95.00,0.50 54.50,30.00
-            -28.00,98.33 -3.88,208.62 51.00,251.75
-            111.38,303.00 183.00,281.00 206.50,270.00
-            250.50,292.50 319.50,288.50 360.75,253.00
-            452.00,172.67 401.50,67.00 367.25,38.00
-            315.45,-11.09 244.67,-2.67 206.00,15.27 Z" />
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- style css -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Responsive-->
+    <link rel="stylesheet" href="css/responsive.css">
+    <!-- fevicon -->
+    <link rel="icon" href="images/fevicon.png" type="image/gif" />
+    <!-- Scrollbar Custom CSS -->
+    <link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css">
+    <!-- Tweaks for older IEs-->
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen">
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
+</head>
+<!-- body -->
 
-          <path id="GuciPot" fill="rgb(235, 236, 237)" stroke="black" stroke-width="1" d="M 206.62,48.50
-              C 177.38,66.88 163.86,100.84 161.95,107.00
-                146.16,106.97 154.94,106.94 133.00,107.01
-                139.09,70.00 170.00,40.45 177.50,34.75
-                120.82,18.55 93.75,39.75 77.50,49.50
-                18.55,83.82 14.36,186.36 66.50,227.00
-                94.55,254.00 131.27,261.45 177.50,251.50
-                148.00,224.18 128.62,185.23 128.94,155.00
-                156.69,155.00 165.31,154.44 194.81,154.94
-                195.06,169.81 194.98,166.28 194.98,183.03
-                170.53,182.78 185.47,183.25 164.00,182.97
-                176.50,214.88 185.50,222.50 206.75,238.12
-                233.75,219.00 243.00,200.75 249.12,183.00
-                225.25,182.81 232.98,183.06 217.98,183.00
-                218.00,169.00 218.36,166.27 218.09,155.00
-                262.91,155.00 242.09,154.82 284.50,155.25
-                283.09,198.00 256.00,232.73 235.75,251.25
-                298.91,271.27 343.50,233.00 356.00,217.50
-                417.50,152.00 365.50,71.25 345.00,55.75
-                324.50,40.25 289.09,18.00 235.64,34.00
-                254.91,54.18 272.90,71.34 280.13,106.96
-                260.78,106.87 270.26,107.00 251.00,107.00
-                240.73,77.00 224.36,58.73 206.62,48.50 Z" />
-        </svg>
-      </div>
+<body class="main-layout">
+    <!-- loader  -->
+    <div class="loader_bg">
+        <div class="loader"><img src="images/loading.gif" alt="#" /></div>
     </div>
-    <br>
 
-    <!--BREZ-->
-    <div class="brezslika">
-      <div class="can">
-        <canvas id="myCanvas" width="fit-content" height="fit-content"></canvas>
-      </div>
+    <div class="wrapper">
+
+        <!-- end loader -->
+        <div class="sidebar">
+            <!-- Sidebar  -->
+            <nav id="sidebar">
+
+                <div id="dismiss">
+                    <i class="fa fa-arrow-left"></i>
+                </div>
+
+                <ul class="list-unstyled components">
+
+                    <li class="active">
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="#brand">Brands</a>
+                    </li>
+                    <li>
+                        <a href="#shoes">Shoes</a>
+                    </li>
+                    <li>
+                        <a href="#jewellery">Jewellery</a>
+                    </li>
+                    <li>
+                        <a href="#kids">Kids and Babies</a>
+                    </li>
+                </ul>
+
+            </nav>
+        </div>
+
+        <div id="content">
+            <!-- header -->
+            <header>
+                <!-- header inner -->
+                <div class="head_top">
+                    <div class="header">
+
+                        <div class="container-fluid">
+
+                            <div class="row">
+                                <div class="col-lg-3 logo_section">
+                                    <div class="full">
+                                        <div class="center-desk">
+                                            <div class="logo">
+                                                <a href="index.html"><img class="guclog" src="images/logo.png" alt="#"></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-9">
+                                    <div class="right_header_info">
+                                        <ul>
+                                            <li class="menu_iconb">
+                                                <a href="#"><img style="margin-right: 15px;" src="icon/1.png" alt="#" />7213456789</a>
+                                            </li>
+                                            <li class="menu_iconb">
+                                                <a href="#">Log in <img style="margin-right: 15px; height: 17px; width: 17px;" src="icon/5.png" alt="#" /> </a>
+                                            </li>
+                                            <li class="menu_iconb">
+                                                <a href="#">Signup<img style="margin-left: 15px; width: 17px; height: 17px;" src="icon/6.png" alt="#" /></a>
+                                            </li>
+                                            <li class="tytyu">
+                                                <a href="#"> <img style="margin-right: 15px;" src="icon/2.png" alt="#" /></a>
+                                            </li>
+                                            <li class="menu_iconb">
+                                                <a href="#"><img style="margin-right: 15px;" src="icon/3.png" alt="#" /></a>
+                                            </li>
+
+                                            <li>
+                                                <button type="button" id="sidebarCollapse">
+                                                    <img src="images/menu_icon.png" alt="#" />
+                                                </button>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- end header inner -->
+
+                    <!-- end header -->
+                    <section class="slider_section">
+                        <div class="banner_main">
+                            <div class="container-fluid padding3">
+                                <div class="row">
+                                    <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 mapimg">
+                                        <div class="text-bg">
+                                            <h1>Gucci <br>
+                                        Only<br>
+                                        for <br>
+                                        You</h1>
+                                            <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit</span>
+                                            <a href="#">Buy now</a>
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-8 col-lg-8 col-md-8 col-sm-12">
+                                        <div id="myCarousel" class="carousel slide banner_Client" data-ride="carousel">
+                                            
+                                            <div class="carousel-inner">
+                                                <div class="carousel-item active">
+                                                    <div class="container">
+                                                        <div class="carousel-caption text">
+                                                            <div class="row">
+                                                                <div class="col-md-12">
+                                                                    <div class="img_bg">
+                                                                        <figure><img class="" src="images/man.png" /></figure>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                </div>
+            </header>
+            <!-- Categories -->
+            <div class="Categories">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="title">
+                                <h2> Categories</h2>
+                                <ul class="categiri">
+                                    <li class="active"><a href="#">Clothing</a></li>
+                                    <li><a href="#">Electronics</a></li>
+                                    <li><a href="#shoes">Shoes</a></li>
+                                    <li><a href="#">Watches</a></li>
+                                    <li><a href="#jewellery">Jewellery</a></li>
+                                    <li><a href="#">Health and Beauty</a></li>
+                                    <li><a href="#kids">Kids and Babies</a></li>
+                                    <li><a href="#">Sports</a></li>
+                                    <li><a href="#">Home and Garden</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- news brand -->
+                    <div id="brand"  class="brand-bg">
+                        <h3>popular picks</h3>
+                        <div class="row">
+                            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 margintop">
+                                <div class="brand-box">
+                                    <h5>Sale</h5>
+                                    <i><img class="tshirt1" src="icon/ts1.png"/>
+                                </i>
+                                    <h4>Price $<span class="nolmal">100</span></h4>
+
+                                </div>
+                                <a class="buynow" href="#">Buy now</a>
+                            </div>
+                            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 margintop">
+                                <div class="brand-box">
+                                    <i><img class="tshirt" src="icon/ts2.png"/></i>
+                                    <h4>Price $<span class="nolmal">100</span></h4>
+                                </div>
+                                <a class="buynow" href="#">Buy now</a>
+                            </div>
+                            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
+                                <div class="brand-box">
+                                    <i>
+                                        <img class="bp" src="icon/backpack.png" alt="">
+                                            <div class="can">
+                                                <canvas id="myCanvas"></canvas>
+                                            </div>
+                                        
+                                        <script>
+                                            var canvas = document.getElementById("myCanvas");
+                                            var context = canvas.getContext("2d");
+                                        
+                                            context.beginPath();
+                                            context.moveTo(103.165, 7.335);
+                                            context.bezierCurveTo(103.165, 7.335, 64.5, -12, 29.835, 13.165);
+                                            context.bezierCurveTo(-6, 36, -11.25, 102, 30, 130.75);
+                                            context.bezierCurveTo(67.915, 152.75, 98, 136.665, 102.335, 135.665);
+                                            context.bezierCurveTo(106.665, 134.665, 137.94, 152.25, 169.665, 133.835);
+                                            context.bezierCurveTo(203.75, 119.25, 230.665, 43.165, 168.665, 8);
+                                            context.bezierCurveTo(133.25, -9.25, 103.165, 7.335, 103.165, 7.335);
+                                            context.closePath();
+                                        
+                                            context.fillStyle = "black";
+                                            context.fill();
+                                        
+                                            context.beginPath();
+                                            context.moveTo(89.75, 17);
+                                            context.bezierCurveTo(89.75, 17, 27.75, -1.75, 14.5, 67.5);
+                                            context.bezierCurveTo(13.5, 125.25, 72.905, 133.56, 88.405, 125.81);
+                                            context.bezierCurveTo(87.28, 121.5, 68.295, 114.795, 64.045, 77.045);
+                                            context.bezierCurveTo(84.865, 77.365, 84.365, 77.045, 97.455, 77.41);
+                                            context.bezierCurveTo(97.455, 81.82, 97.365, 91.635, 97.365, 91.635);
+                                            context.bezierCurveTo(97.365, 91.635, 81.955, 91.455, 81.955, 91.455);
+                                            context.bezierCurveTo(81.955, 91.455, 94.225, 116.455, 103.18, 118.5);
+                                            context.bezierCurveTo(112.365, 116.725, 125.18, 92.41, 124.725, 91.5);
+                                            context.bezierCurveTo(111.865, 91.41, 109.09, 91.5, 109.09, 91.5);
+                                            context.bezierCurveTo(109.09, 91.5, 109.09, 77.545, 109.09, 77.545);
+                                            context.bezierCurveTo(109.09, 77.545, 142.135, 77.5, 142.135, 77.5);
+                                            context.bezierCurveTo(142.135, 77.5, 140.545, 107.18, 118.365, 125.455);
+                                            context.bezierCurveTo(139.165, 133.835, 193.335, 124, 192, 66);
+                                            context.bezierCurveTo(182.335, 8.665, 125.5, 10.5, 118.835, 17.165);
+                                            context.bezierCurveTo(126.94, 23.75, 139.875, 44.375, 139.875, 53.375);
+                                            context.bezierCurveTo(124.44, 53.5, 125.52, 53.545, 125.52, 53.545);
+                                            context.bezierCurveTo(125.52, 53.545, 116.82, 31.18, 103.365, 24.275);
+                                            context.bezierCurveTo(88.275, 34.725, 84.18, 42.635, 81.09, 53.09);
+                                            context.bezierCurveTo(71.09, 53.68, 70.365, 53.5, 66, 53.5);
+                                            context.bezierCurveTo(73.5, 28.045, 89.75, 17, 89.75, 17);
+                                            context.closePath();
+                                            context.fillStyle = "rgb(230, 230, 230)";
+                                            context.fill();
+                                        
+                                            context.lineWidth = 1;
+                                        
+                                            // line color
+                                            context.strokeStyle = "black";
+                                            context.stroke();
+                                        </script>
+                                    </i>
+                                    <h4>Price $<span class="nolmal">100</span></h4>
+                                </div>
+                                <a class="buynow" href="#">Buy now</a>
+                            </div>
+                            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
+                                <div class="brand-box">
+                                    <i>
+                                    <img class="tshirt1 bp" src="icon/bag2.png"/>
+                                
+                                    <div class="svg1">
+                                        <svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 413 286">
+                                
+                                          <path id="GuciPot" fill="rgb(187,156,127,255)" stroke="black" stroke-width="1" d="M 206.00,15.27
+                                          C 146.50,-9.00 95.00,0.50 54.50,30.00
+                                            -28.00,98.33 -3.88,208.62 51.00,251.75
+                                            111.38,303.00 183.00,281.00 206.50,270.00
+                                            250.50,292.50 319.50,288.50 360.75,253.00
+                                            452.00,172.67 401.50,67.00 367.25,38.00
+                                            315.45,-11.09 244.67,-2.67 206.00,15.27 Z" />
+                                
+                                          <path id="GuciPot" fill="rgb(206,193,177,255)" stroke="black" stroke-width="1" d="M 206.62,48.50
+                                              C 177.38,66.88 163.86,100.84 161.95,107.00
+                                                146.16,106.97 154.94,106.94 133.00,107.01
+                                                139.09,70.00 170.00,40.45 177.50,34.75
+                                                120.82,18.55 93.75,39.75 77.50,49.50
+                                                18.55,83.82 14.36,186.36 66.50,227.00
+                                                94.55,254.00 131.27,261.45 177.50,251.50
+                                                148.00,224.18 128.62,185.23 128.94,155.00
+                                                156.69,155.00 165.31,154.44 194.81,154.94
+                                                195.06,169.81 194.98,166.28 194.98,183.03
+                                                170.53,182.78 185.47,183.25 164.00,182.97
+                                                176.50,214.88 185.50,222.50 206.75,238.12
+                                                233.75,219.00 243.00,200.75 249.12,183.00
+                                                225.25,182.81 232.98,183.06 217.98,183.00
+                                                218.00,169.00 218.36,166.27 218.09,155.00
+                                                262.91,155.00 242.09,154.82 284.50,155.25
+                                                283.09,198.00 256.00,232.73 235.75,251.25
+                                                298.91,271.27 343.50,233.00 356.00,217.50
+                                                417.50,152.00 365.50,71.25 345.00,55.75
+                                                324.50,40.25 289.09,18.00 235.64,34.00
+                                                254.91,54.18 272.90,71.34 280.13,106.96
+                                                260.78,106.87 270.26,107.00 251.00,107.00
+                                                240.73,77.00 224.36,58.73 206.62,48.50 Z" />
+                                        </svg>
+                                      </div>
+                                
+                                </i>
+                                        
+                                    <h4>Price $<span class="nolmal">100</span></h4>
+                                </div>
+                                <a class="buynow" href="#">Buy now</a>
+                            </div>
+                        </div>
+                    </div>
+                    <a class="seemore" href="#">See more</a>
+                    <!-- end news brand -->
+
+           
+            <div class="copyright"> 
+                <div class="container">
+                <p>Copyright 2019 All Right Reserved By <a href="https://html.design/">Free html Templates</a></p>
+            </div>
+          </div>
+        </div>
+
+    </footer>
+    <!-- end footer -->
+  
+
     </div>
-    <br>
 
+    <div class="overlay"></div>
 
+    <!-- Javascript files-->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/jquery-3.0.0.min.js"></script>
 
+    <!-- sidebar -->
+    <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+    <script src="js/custom.js"></script>
+    <script src="https:cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $("#sidebar").mCustomScrollbar({
+                theme: "minimal"
+            });
 
-  </div>
+            $('#dismiss, .overlay').on('click', function() {
+                $('#sidebar').removeClass('active');
+                $('.overlay').removeClass('active');
+            });
+
+            $('#sidebarCollapse').on('click', function() {
+                $('#sidebar').addClass('active');
+                $('.overlay').addClass('active');
+                $('.collapse.in').toggleClass('in');
+                $('a[aria-expanded=true]').attr('aria-expanded', 'false');
+            });
+        });
+    </script>
+
+    <script>
+        $(document).ready(function() {
+            $(".fancybox").fancybox({
+                openEffect: "none",
+                closeEffect: "none"
+            });
+
+            $(".zoom").hover(function() {
+
+                $(this).addClass('transition');
+            }, function() {
+
+                $(this).removeClass('transition');
+            });
+        });
+    </script>
+    <script>
+        // This example adds a marker to indicate the position of Bondi Beach in Sydney,
+        // Australia.
+        function initMap() {
+            var map = new google.maps.Map(document.getElementById('map'), {
+                zoom: 11,
+                center: {
+                    lat: 40.645037,
+                    lng: -73.880224
+                },
+            });
+
+            var image = 'images/maps-and-flags.png';
+            var beachMarker = new google.maps.Marker({
+                position: {
+                    lat: 40.645037,
+                    lng: -73.880224
+                },
+                map: map,
+                icon: image
+            });
+        }
+    </script>
+
+    
 </body>
-
-<script>
-  var canvas = document.getElementById("myCanvas");
-  var context = canvas.getContext("2d");
-
-  context.beginPath();
-context.moveTo(103.165, 7.335);
-context.bezierCurveTo(103.165, 7.335, 64.5, -12, 29.835, 13.165);
-context.bezierCurveTo(-6, 36, -11.25, 102, 30, 130.75);
-context.bezierCurveTo(67.915, 152.75, 98, 136.665, 102.335, 135.665);
-context.bezierCurveTo(106.665, 134.665, 137.94, 152.25, 169.665, 133.835);
-context.bezierCurveTo(203.75, 119.25, 230.665, 43.165, 168.665, 8);
-context.bezierCurveTo(133.25, -9.25, 103.165, 7.335, 103.165, 7.335);
-context.closePath();
-
-  context.fillStyle = "black";
-  context.fill();
-
-  context.beginPath();
-context.moveTo(89.75, 17);
-context.bezierCurveTo(89.75, 17, 27.75, -1.75, 14.5, 67.5);
-context.bezierCurveTo(13.5, 125.25, 72.905, 133.56, 88.405, 125.81);
-context.bezierCurveTo(87.28, 121.5, 68.295, 114.795, 64.045, 77.045);
-context.bezierCurveTo(84.865, 77.365, 84.365, 77.045, 97.455, 77.41);
-context.bezierCurveTo(97.455, 81.82, 97.365, 91.635, 97.365, 91.635);
-context.bezierCurveTo(97.365, 91.635, 81.955, 91.455, 81.955, 91.455);
-context.bezierCurveTo(81.955, 91.455, 94.225, 116.455, 103.18, 118.5);
-context.bezierCurveTo(112.365, 116.725, 125.18, 92.41, 124.725, 91.5);
-context.bezierCurveTo(111.865, 91.41, 109.09, 91.5, 109.09, 91.5);
-context.bezierCurveTo(109.09, 91.5, 109.09, 77.545, 109.09, 77.545);
-context.bezierCurveTo(109.09, 77.545, 142.135, 77.5, 142.135, 77.5);
-context.bezierCurveTo(142.135, 77.5, 140.545, 107.18, 118.365, 125.455);
-context.bezierCurveTo(139.165, 133.835, 193.335, 124, 192, 66);
-context.bezierCurveTo(182.335, 8.665, 125.5, 10.5, 118.835, 17.165);
-context.bezierCurveTo(126.94, 23.75, 139.875, 44.375, 139.875, 53.375);
-context.bezierCurveTo(124.44, 53.5, 125.52, 53.545, 125.52, 53.545);
-context.bezierCurveTo(125.52, 53.545, 116.82, 31.18, 103.365, 24.275);
-context.bezierCurveTo(88.275, 34.725, 84.18, 42.635, 81.09, 53.09);
-context.bezierCurveTo(71.09, 53.68, 70.365, 53.5, 66, 53.5);
-context.bezierCurveTo(73.5, 28.045, 89.75, 17, 89.75, 17);
-context.closePath();
-  context.fillStyle = "rgb(230, 230, 230)";
-  context.fill();
-
-  context.lineWidth = 1;
-
-  // line color
-  context.strokeStyle = "black";
-  context.stroke();
-</script>
 
 </html>
