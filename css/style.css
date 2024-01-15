@@ -1249,7 +1249,7 @@ nav.main-menu {
 }
 
 .right_header_info ul li a {
-    color: #616161;
+    color: #131313;
      font-weight: 300;
 }
 
@@ -1426,6 +1426,7 @@ text-transform: uppercase;
 
 .banner_Client {
 	position: relative;
+	top: 6%;
 }
 
 .text {position: inherit; 
@@ -1451,7 +1452,7 @@ flex-wrap: wrap;
 }
 
 .img_bg figure {margin: 0px; }
-.img_bg figure img {width: 100%;}
+.img_bg figure img {width: 100%; height: 666px;}
 
 .img_bg h3 {
 text-align: center;
@@ -2191,7 +2192,7 @@ a.article:hover {
 
 
 .guclog{
-	height: 60px;
+	height: 70px;
 }
 
 .bp {
@@ -2225,9 +2226,9 @@ a.article:hover {
 .svg1{
     position: absolute;
     z-index: 2;
-	width: 185px;
+	width: 225px;
 	top: 37%;
-	left: 6%;
+	left: -3%;
 }
 .svg1 svg{
     width: 22%;
@@ -2236,11 +2237,11 @@ a.article:hover {
 }
 
 .tshirt{
-	height: 190px;
-	width: 172px;
+	height: 260px;
+	width: fit-content;
 }
 .tshirt1{
-	height: 235px;
-	width: 189px;
+	height: fit-content;
+	width: fit-content;
 }
 
